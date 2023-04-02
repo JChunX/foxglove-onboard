@@ -33,4 +33,4 @@ ros2 bag record -s mcap -a -o <save_path>
 
 ### view bag
 
-bags are stored on remote by default. scp is a good way to transport it to local for viewing
+- bags are stored on remote by default. scp is a good way to transport it to local for viewing
