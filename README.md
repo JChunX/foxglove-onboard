@@ -27,9 +27,15 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ## bagging
 
 ### run bagging
-```bash
-ros2 bag record -s mcap -a -o <save_path>
-```
+
+  - install mcap
+  ```bash
+  sudo apt install ros-$ROS_DISTRO-rosbag2-storage-mcap
+  ```
+  - run
+  ```bash
+  ros2 bag record -s mcap -a -o <save_path>
+  ```
 
 ### view bag
 
